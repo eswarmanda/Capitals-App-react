@@ -1,0 +1,40 @@
+.main-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 100vh;
+  background-color: #93c5fd;
+}
+.card {
+  background-color: #ffffff;
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.select-list {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+}
+.option-card {
+  height: 40px;
+}
+.question-card {
+  display: flex;
+}
+.country-card {
+  display: flex;
+  justify-content: flex-start;
+  width: 340px;
+}
+.p {
+  margin-left: 5px;
+}
